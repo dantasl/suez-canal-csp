@@ -23,7 +23,7 @@ The specification requires that the system is compliant to the following:
 * A convoy must traverse the canal as a group; no ship is left behind mid-passage.
 * High-priority convoys must always be served before low-priority ones if both are waiting.
 * The number of ships in a convoy does not exceed the canal's maximum allowed capacity.
-* The convoy queue is processed in the order of priority, with ties broken by arrival order.
+* The convoy queue is processed in the order of priority, with ties broken by random choice.
 
 Additional liveness requirements include:
 
